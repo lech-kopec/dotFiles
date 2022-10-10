@@ -1,0 +1,12 @@
+{
+  "configurations": {
+    "launch current file": {
+      "adapter": "cust_vscode-ruby",
+      "configuration": {
+        "request": "launch",
+        "program": "${file}"
+      }
+    }
+  },
+  "put me in": "project root"
+}

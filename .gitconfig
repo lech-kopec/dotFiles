@@ -1,0 +1,10 @@
+[core]
+	editor = nvim
+[alias]
+    empty = "status"
+    co = "checkout"
+    st = "status"
+[user]
+    name = Lech Kopec
+[credential]
+    helper = store
