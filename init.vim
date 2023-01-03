@@ -5,6 +5,8 @@ set number
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set ignorecase
+set smartcase
 
 nnoremap gr :tabprev<CR>
 nnoremap gx :tabclose<CR>
@@ -23,12 +25,11 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 
-set t_Co=256   " This is may or may not needed.
-
 set background=dark
 colorscheme PaperColor
 
 set completeopt-=preview
+filetype plugin on
 
 
 set completeopt=menu,menuone,noselect
